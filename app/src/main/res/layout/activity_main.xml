@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_wallpaper"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/rollDiceImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@id/rollDiceButton"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/dice_image"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@drawable/dice_1" />
+
+    <Button
+        android:id="@+id/rollDiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:text="@string/roll_the_dice"
+        android:layout_marginHorizontal="25dp"
+        android:textColor="#FBC02D" />
+
+    <TextView
+        android:id="@+id/luckyNumWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="36sp"
+        tools:text="If lucky number then won" />
+</RelativeLayout>

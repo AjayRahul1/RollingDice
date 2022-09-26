@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rolling Dice</string>
+    <string name="roll_the_dice">Roll the Dice</string>
+    <string name="it_is_your_lucky_num">It is your lucky Number :)</string>
+    <string name="not_your_lucky_num">Try Again! Not your lucky number</string>
+    <string name="dice_image">Dice Image</string>
+</resources>
